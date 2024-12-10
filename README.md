@@ -1,1 +1,1 @@
-# RISC-V-ARM-Hailin-He-Final-Year-project-
+# RISC-V & ARM (Hailin He Final Year project)
