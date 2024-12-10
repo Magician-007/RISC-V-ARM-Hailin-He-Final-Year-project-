@@ -1,0 +1,75 @@
+$date
+	Tue Dec 10 06:19:15 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module data_memory_tb $end
+$var wire 32 ! RD [31:0] $end
+$var reg 32 " A [31:0] $end
+$var reg 1 # MemWrite $end
+$var reg 32 $ WD [31:0] $end
+$var reg 1 % clk $end
+$scope module dut $end
+$var wire 32 & A [31:0] $end
+$var wire 1 # MemWrite $end
+$var wire 32 ' WD [31:0] $end
+$var wire 1 % clk $end
+$var wire 32 ( RD [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+b10101011110011011110111100010010 '
+b0 &
+0%
+b10101011110011011110111100010010 $
+1#
+b0 "
+bx !
+$end
+#10000
+b10101011110011011110111100010010 !
+b10101011110011011110111100010010 (
+1%
+#20000
+0%
+#30000
+1%
+#40000
+0%
+bx !
+bx (
+b1100 "
+b1100 &
+#50000
+b10101011110011011110111100010010 !
+b10101011110011011110111100010010 (
+1%
+#60000
+0%
+bx !
+bx (
+b10000 "
+b10000 &
+#70000
+b10101011110011011110111100010010 !
+b10101011110011011110111100010010 (
+1%
+#80000
+0%
+b0 "
+b0 &
+0#
+#90000
+1%
+#100000
+0%

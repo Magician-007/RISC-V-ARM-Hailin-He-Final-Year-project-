@@ -1,0 +1,84 @@
+$date
+	Tue Dec 10 04:54:28 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module program_counter_tb $end
+$var wire 32 ! program_counter [31:0] $end
+$var reg 1 " PCSrc $end
+$var reg 32 # PCTarget [31:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$scope module dut $end
+$var wire 1 " PCSrc $end
+$var wire 32 & PCTarget [31:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var reg 32 ' program_counter [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+b0 &
+1%
+0$
+b0 #
+0"
+bx !
+$end
+#10000
+b0 !
+b0 '
+1$
+#20000
+0$
+b1010 #
+b1010 &
+1"
+0%
+#30000
+b1010 !
+b1010 '
+1$
+#40000
+0$
+0"
+#50000
+b1110 !
+b1110 '
+1$
+#60000
+0$
+#70000
+b10010 !
+b10010 '
+1$
+#80000
+0$
+#90000
+b10110 !
+b10110 '
+1$
+#100000
+0$
+#110000
+b11010 !
+b11010 '
+1$
+#120000
+0$
+#130000
+b11110 !
+b11110 '
+1$
+#140000
+0$
