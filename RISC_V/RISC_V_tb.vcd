@@ -1,0 +1,199 @@
+$date
+	Wed Dec 11 14:11:44 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module RISC_V_tb $end
+$var wire 8 ! cpu_out [7:0] $end
+$var reg 1 " clkbar $end
+$var reg 1 # resetbar $end
+$scope module dut $end
+$var wire 32 $ A [31:0] $end
+$var wire 32 % SrcA [31:0] $end
+$var wire 32 & WD [31:0] $end
+$var wire 32 ' WD3 [31:0] $end
+$var wire 1 ( clk $end
+$var wire 1 " clkbar $end
+$var wire 1 ) reset $end
+$var wire 1 # resetbar $end
+$var wire 1 * zero $end
+$var wire 1 + opcode_5 $end
+$var wire 7 , opcode [6:0] $end
+$var wire 32 - instruction [31:0] $end
+$var wire 1 . funct7_5 $end
+$var wire 7 / funct7 [6:0] $end
+$var wire 3 0 funct3 [2:0] $end
+$var wire 8 1 cpu_out [7:0] $end
+$var wire 32 2 SrcB [31:0] $end
+$var wire 32 3 Result [31:0] $end
+$var wire 32 4 RD2 [31:0] $end
+$var wire 32 5 RD1 [31:0] $end
+$var wire 32 6 RD [31:0] $end
+$var wire 32 7 PCTarget [31:0] $end
+$var wire 1 8 PCSrc $end
+$var wire 5 9 A3 [4:0] $end
+$var wire 5 : A2 [4:0] $end
+$var wire 5 ; A1 [4:0] $end
+$var reg 3 < ALUControl [2:0] $end
+$var reg 2 = ALUOp [1:0] $end
+$var reg 32 > ALUResult [31:0] $end
+$var reg 1 ? ALUSrc $end
+$var reg 1 @ Branch $end
+$var reg 32 A ImmExt [31:0] $end
+$var reg 2 B ImmSrc [1:0] $end
+$var reg 1 C MemWrite $end
+$var reg 32 D PC [31:0] $end
+$var reg 1 E RegWrite $end
+$var reg 1 F ResultSrc $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0F
+1E
+b0 D
+0C
+b0 B
+bx A
+0@
+1?
+bx >
+b10 =
+b0 <
+b0 ;
+b1010 :
+b101 9
+08
+bx 7
+bx 6
+b0 5
+bx 4
+bx 3
+bx 2
+bx 1
+b0 0
+b0 /
+0.
+b101000000000001010010011 -
+b10011 ,
+0+
+x*
+1)
+1(
+bx '
+bx &
+b0 %
+bx $
+0#
+0"
+bx !
+$end
+#10000
+0(
+1"
+#20000
+1(
+0"
+#30000
+0(
+1"
+#40000
+x8
+bx %
+bx 5
+1+
+bx =
+x@
+xF
+xC
+x?
+bx B
+xE
+b101 :
+b10 0
+b1 ;
+b100011 ,
+b0 9
+b10100001010000000100011 -
+b100 D
+1(
+0)
+0"
+1#
+#50000
+0(
+1"
+#60000
+08
+b0 &
+b0 4
+0+
+b0 =
+0@
+1F
+0C
+1?
+b0 B
+1E
+b0 :
+b11 ,
+b11 9
+b1010000110000011 -
+b1000 D
+1(
+0"
+#70000
+0(
+1"
+#80000
+x8
+x.
+bx &
+bx 4
+x+
+bx =
+x@
+xF
+xC
+x?
+bx B
+xE
+bx /
+bx :
+bx 0
+bx ;
+bx ,
+bx 9
+bx -
+b1100 D
+1(
+0"
+#90000
+0(
+1"
+#100000
+b10000 D
+1(
+0"
+#110000
+0(
+1"
+#120000
+b10100 D
+1(
+0"
+#130000
+0(
+1"
+#140000
+b11000 D
+1(
+0"
